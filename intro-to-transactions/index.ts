@@ -32,7 +32,6 @@ await airdropIfRequired(
     0.5 * LAMPORTS_PER_SOL,
 );
 
-
 const transaction = new Transaction();
 
 const LAMPORTS_TO_SEND = parseInt(process.argv[3]) || 5000;
